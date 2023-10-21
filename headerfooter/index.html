@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xe Dap</title>
+    <link rel="stylesheet" href="assert/css/styles.css">
+    <link rel="shortcut icon" href="assert/img/cropped-LOGO-XE-DAP-1-32x32.png" type="image/x-icon">
+    <!-- FontAwesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $("#fall").change(function(){
+            var text = $(this).find("option:selected").text()
+            var $aux = $("<select/>").append($("<option/>").text(text))
+            $(this).after($aux)
+            $(this).width($aux.width())
+            $aux.remove()
+        }).change()
+    </script>
+    
+</head>
+<body>
+    <!-- Header -->
+        <header id="header" class="header">
+            <div class="header_wapper">
+                <div class="header_top">
+                    <div class="flex_row container">
+                        <div class="flex_top">
+                            <ul class="nav nav-left medium-nav-center nav-small">                              
+                                <li class="nav_map">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q=#" title="#" class="tooltip">
+                                        <i class="fa-solid fa-location-dot" style="font-size: 16px;"></i> <span> Showroom </span>
+                                    </a>
+                                </li>
+                                <li class="nav_email">
+                                    <a href="mailto:#" class="tooltip" title="#"> <i class="fa-solid fa-square-envelope" style="font-size: 16px;"></i> <span> email@gmail.com </span> </a>
+                                </li>
+                                <li class="nav_clock">
+                                    <a class="tooltip" title="08:00 - 17:00 "> <i class="fa-regular fa-clock"style="font-size: 16px;">
+                                        </i> <span>08:00 - 17:00</span> 
+                                    </a>
+                                </li>
+                                <li class="nav_phone">
+                                    <a href="tel:Đặt Hàng : 0999.999.999 - Holine : 0999.999.999" class="tooltip" title="Đặ1278
+                                    12t Hàng : 0999.999.999 - Holine : 0999.999.999">
+                                        <i class="fa-solid fa-phone" style="font-size: 16px;"></i> <span>Đặt Hàng : 0999.999.999 - Holine : 0999.999.999</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="main_header" class="header_main">
+                    <div class="header_logo header_search logo_right">
+                        <div class="logo">
+                            <a href="" title="Xe Dap">
+                                <img src="assert/img/logo-xe-dap.png" alt="" class="logo_xe_dap" width="249" height="85">
+                            </a>
+                        </div>
+                        <div class="search_sp right_hotline">
+                            <div class="search_form_wapper">
+                                <form action="" class="search_form" role="search">
+                                    <div class="flex_search relative">
+                                        <div class="option_search">
+                                            <select name="search_categories" id="fall" class="search_categories mb-0" style="width: 70px;">
+                                                <option value selected="selected">All</option>
+                                                <option value="xe-dap-banh-to">Xe đạp bánh to</option>
+                                                <option value="xe-dap-dua">Xe đạp đua</option>
+                                                <option value="xe-dap-duong-pho">Xe đạp đường phố</option>
+                                                <option value="xe-dap-the-thao">Xe đạp thể thao</option>
+                                            </select>
+                                        </div>
+                                        <div class="input_search">
+                                            <input type="search" name="search" id="fsearch" class="search_ip mb-0" placeholder="Nhập tên sản phẩm...">
+                                        </div>
+                                        <div class="icon_search"> 
+                                            <button type="submit" class="btn_search" value="Tìm Kiếm">
+                                                <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="flex_hotline">
+                                <div class="icon" style="width: 36px;">
+                                    <div class="icon_phone">
+                                        <img src="assert/img/phone-icno.png" alt="#" width="36" height="36" class="phone_icno">
+                                    </div>
+                                </div>
+                                <div class="hotline_number">
+                                    <div class="cart_text">
+                                        <div class="text_hotline">
+                                            <span style="color: #282828;">Hotline tư vấn</span>
+                                        </div>
+                                        <div class="number_hotline">
+                                            <span style="font-size: 190%; color: #ff0000;">0999.999.999</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopping">
+                            <div class="flex_shopping">
+                                <a href="#" title="Giỏ hàng" class="shopping_bag">
+                                    <span class="shopping_text" style="font-size: 16px; color: #000000;">Giỏ hàng</span>
+                                    <i class="fa-solid fa-bag-shopping" style="min-width: 2em;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+                <div class="flex_bottom flex_square">
+                    <div class="flex_container">
+                        <div class="menu_left">
+                            <ul class="mega_menu_item">
+                                <div class="flex_menu_hiden">
+                                    <i class="fa-solid fa-bars"></i>
+                                    <div class="menu_title">Danh mục sản phẩm</div>
+                                </div>
+                                <ul class="mega_menu" style="touch-action: pan-y;">
+                                    <li class="menu-item-1">
+                                        <a href="#" class="op_sub-menu">Xe đạp thể thao</a>
+                                        <ul class="sub_menu" style="margin-top: 0px; min-height: 400.8px;">
+                                            <li class="sub-menu-item-1">
+                                                <a href="#">Xe đạp giá rẻ</a>
+                                            </li>
+                                            <li class="sub-menu-item-2">
+                                                <a href="#">Xe đạp cao cấp</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-2">
+                                        <a href="#">Xe đạp trẻ em</a>
+                                    </li>
+                                    <li class="menu-item-3">
+                                        <a href="#">Xe đạp nữ</a>
+                                    </li>
+                                    <li class="mune-item-4">
+                                        <a href="#">Xe đạp gấp</a>
+                                    </li>
+                                    <li class="menu-item-5">
+                                        <a href="#">Xe đạp Fixed Gear</a>
+                                    </li>
+                                    <li class="menu-item-6">
+                                        <a href="#">Xe đạp đường phố</a>
+                                    </li>
+                                    <li class="menu-item-7">
+                                        <a href="#">Xe đạp đua</a>
+                                    </li>
+                                    <li class="menu-item-8">
+                                        <a href="#">Xe đạp điện</a>
+                                    </li>
+                                    <li class="menu-item-9">
+                                        <a href="#">Xe đạp bánh to</a>
+                                    </li>
+                                    <li class="menu-item-10">
+                                        <a href="#" class="op_sub_menu">Phụ kiện - đồ chơi xe đạp</a>
+                                        <ul class="sub_menu" style="margin-top: -360px; min-height: 400.8px;">
+                                            <li class="sub-menu-item-3">
+                                                <a href="#">Phụ tùng xe đạp</a>
+                                            </li>
+                                            <li class="sub-menu-item-4">
+                                                <a href="#">Gác ba ga</a>
+                                            </li>
+                                            <li class="sub-menu-item-5">
+                                                <a href="#">Giỏ xe</a>
+                                            </li>
+                                            <li class="sub-menu-item-3">
+                                                <a href="#">Khung - càng</a>
+                                            </li>
+                                            <li class="sub-menu-item-3">
+                                                <a href="#">Săm - lốp</a>
+                                            </li>
+                                            <li class="sub-menu-item-3">
+                                                <a href="#">Yên xe</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="menu_center">
+                            <ul class="nav_menu">
+                                <li class="menu-1 active">
+                                    <a href="#" class="nav-link">TRANG CHỦ</a>
+                                </li>
+                                <li class="menu-2">
+                                    <a href="#" class="nav-link">GIỚI THIỆU</a>
+                                </li>
+                                <li class="menu-3">
+                                    <a href="#" class="nav-link">SẢN PHẨM</a>
+                                </li>
+                                <li class="menu-4">
+                                    <a href="#" class="nav-link">TÀI KHOẢN</a>
+                                </li>
+                                <li class="menu-5">
+                                    <a href="#" class="nav-link">TIN TỨC</a>
+                                </li>
+                                <li class="menu-6">
+                                    <a href="#" class="nav-link">LIÊN HỆ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <main>
+    <!-- Content -->
+        </main>
+    <!-- Footer -->
+        <footer>
+
+        </footer>
+
+</body>
+</html>
