@@ -421,12 +421,12 @@
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th class="li-product-remove">remove</th>
-                                                <th class="li-product-thumbnail">images</th>
-                                                <th class="cart-product-name">Product</th>
-                                                <th class="li-product-price">Unit Price</th>
-                                                <th class="li-product-quantity">Quantity</th>
-                                                <th class="li-product-subtotal">Total</th>
+                                                <th class="li-product-remove">Bỏ bớt</th>
+                                                <th class="li-product-thumbnail">Hình ảnh</th>
+                                                <th class="cart-product-name">Sản phẩm</th>
+                                                <th class="li-product-price">Giá sản phẩm</th>
+                                                <th class="li-product-quantity">Số lượng</th>
+                                                <th class="li-product-subtotal">Tổng giá</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -436,13 +436,14 @@
                                                 <td class="li-product-name"><a href="#">Accusantium dolorem1</a></td>
                                                 <td class="li-product-price"><span class="amount">$46.80</span></td>
                                                 <td class="quantity">
-                                                    <label>Quantity</label>
+                                                    <label>Số lượng</label>
                                                     <div class="cart-plus-minus">
                                                         <input class="cart-plus-minus-box" value="1" type="text">
                                                         <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
                                                         <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
                                                     </div>
                                                 </td>
+                                                <!--Nên jav scrip ở đây để tăng số lượng tiền-->
                                                 <td class="product-subtotal"><span class="amount">$70.00</span></td>
                                             </tr>
                                             <tr>
@@ -451,13 +452,14 @@
                                                 <td class="li-product-name"><a href="#">Mug Today is a good day</a></td>
                                                 <td class="li-product-price"><span class="amount">$71.80</span></td>
                                                 <td class="quantity">
-                                                    <label>Quantity</label>
+                                                    <label>Số lượng</label>
                                                     <div class="cart-plus-minus">
                                                         <input class="cart-plus-minus-box" value="1" type="text">
                                                         <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
                                                         <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
                                                     </div>
                                                 </td>
+                                                <!--Nên jav scrip ở đây để tăng số lượng tiền-->
                                                 <td class="product-subtotal"><span class="amount">$60.50</span></td>
                                             </tr>
                                         </tbody>
@@ -467,11 +469,11 @@
                                     <div class="col-12">
                                         <div class="coupon-all">
                                             <div class="coupon">
-                                                <input id="coupon_code" class="input-text" name="coupon_code" value="" placeholder="Coupon code" type="text">
-                                                <input class="button" name="apply_coupon" value="Apply coupon" type="submit">
+                                                <input id="coupon_code" class="input-text" name="coupon_code" value="" placeholder="Mã giảm giá" type="text">
+                                                <input class="button" name="apply_coupon" value="Sử dụng mã" type="submit">
                                             </div>
                                             <div class="coupon2">
-                                                <input class="button" name="update_cart" value="Update cart" type="submit">
+                                                <input class="button" name="update_cart" value="Làm mới giỏ hàng" type="submit">
                                             </div>
                                         </div>
                                     </div>
@@ -479,12 +481,12 @@
                                 <div class="row">
                                     <div class="col-md-5 ml-auto">
                                         <div class="cart-page-total">
-                                            <h2>Cart totals</h2>
+                                            <h2>Tổng giỏ hàng</h2>
                                             <ul>
-                                                <li>Subtotal <span>$130.00</span></li>
-                                                <li>Total <span>$130.00</span></li>
+                                                <li>Tổng tiền <span>$130.00</span></li>
+                                                <li>Phải trả <span>$130.00</span></li>
                                             </ul>
-                                            <a href="#">Proceed to checkout</a>
+                                            <a href="#">Tiến hành thanh toán</a>
                                         </div>
                                     </div>
                                 </div>
