@@ -423,7 +423,7 @@ textarea:focus {
 }
 /*Home Three | Slider Background Image*/
 .bg-7, .bg-8, .bg-9 {
-	background-image: url(images/slider/7.jpg);
+	background-image: url(images/product/xe/1.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -431,10 +431,10 @@ textarea:focus {
 	width: 100%;
 }
 .bg-8 {
-	background-image: url(images/slider/8.jpg);
+	background-image: url(images/product/xe/2.jpg);
 }
 .bg-9 {
-	background-image: url(images/slider/9.jpg);
+	background-image: url(images/product/xe/5.jpg);
 }
 /*Home Four | Slider Background Image*/
 .bg-10, .bg-11, .bg-12 {
